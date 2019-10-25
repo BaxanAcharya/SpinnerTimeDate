@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enables fullscreen
         setContentView(R.layout.activity_main);
 
+        
+
         spinner=findViewById(R.id.spinnerCountry);
         spinPlayer=findViewById(R.id.spinnerPlayers);
         autoCompleteTextView=findViewById(R.id.actv);
